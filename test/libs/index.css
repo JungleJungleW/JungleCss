@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/*
+ * @author jiangwang
+ * jungle-css 1.0.0
+ * Documention http://www.github.com/JungleJungleW/jungle-css
+ */
+.jg-slideRight-enter-active,
+.jg-slideRight-leave-active {
+  opacity: 1;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+.jg-slideRight-enter,
+.jg-slideRight-leave-active {
+  opacity: 0;
+  overflow: hidden;
+  transform: translate3d(100%, 0, 0);
+}
+.jg-slideLeft-enter-active,
+.jg-slideLeft-leave-active {
+  opacity: 1;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+.jg-slideLeft-enter,
+.jg-slideLeft-leave-active {
+  opacity: 0;
+  overflow: hidden;
+  transform: translate3d(-100%, 0, 0);
+}
+.jg-slideTop-enter-active,
+.jg-slideTop-leave-active {
+  opacity: 1;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+.jg-slideTop-enter,
+.jg-slideTop-leave-active {
+  opacity: 0;
+  overflow: hidden;
+  transform: translate3d(0, -100%, 0);
+}
+.jg-slideBottom-enter-active,
+.jg-slideBottom-leave-active {
+  opacity: 1;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+.jg-slideBottom-enter,
+.jg-slideBottom-leave-active {
+  opacity: 0;
+  overflow: hidden;
+  transform: translate3d(0, 100%, 0);
+}
+.jg-fade-enter-active,
+.jg-fade-leave-active {
+  transition: all 0.4s ease;
+  opacity: 1;
+}
+.jg-fade-enter,
+.jg-fade-leave-active {
+  opacity: 0;
+}
+.jg-bounce-enter-active,
+.jg-bounce-leave-active {
+  transition: all 0.2s ease;
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+.jg-bounce-enter,
+.jg-bounce-leave-active {
+  opacity: 0;
+  transform: scale3d(0.7, 0.7, 0.7);
+}
+.jg-zoom-enter-active,
+.jg-zoom-leave-active {
+  transition: all 0.2s ease;
+  transform: scale3d(1, 1, 1);
+  overflow: hidden;
+  opacity: 1;
+}
+.jg-zoom-enter {
+  transform: scale3d(3, 3, 3);
+  opacity: 0.6;
+}
+.jg-zoom-leave-active {
+  opacity: 0;
+}
+.jg-flip-enter-active,
+.jg-flip-leave-active {
+  transition: all 0.3s ease-in;
+}
+.jg-flip-enter,
+.jg-flip-leave-active {
+  transform: perspective(200px) rotate3d(1, 0, 0, 90deg);
+  visibility: visible;
+  opacity: 0.2;
+}
+.jg-door-enter-active,
+.jg-door-leave-active {
+  transition: all 0.2s ease;
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+.jg-door-enter,
+.jg-door-leave-active {
+  transform: scale3d(0, 1, 1);
+  opacity: 0;
+}
