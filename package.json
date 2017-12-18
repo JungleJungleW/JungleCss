@@ -1,0 +1,38 @@
+{
+  "name": "gungle-animate",
+  "version": "1.0.0",
+  "description": "vue css animate",
+  "main": "junglecss.css",
+  "scripts": {
+    "stylus": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "css",
+    "animate"
+  ],
+  "author": "jiangwang",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.2",
+    "autoprefixer-core": "^6.0.1",
+    "browser-sync": "^2.18.13",
+    "cssnano": "^3.10.0",
+    "cssnext": "^1.8.4",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.6.0",
+    "postcss-cssnext": "^3.0.2"
+  },
+  "dependencies": {
+    "vue": "^2.5.10"
+  }
+}

@@ -1,2 +1,1 @@
-# JungleCss
-css动画，过渡，通用样式库
+# jungle-animation css3 animation for vue
